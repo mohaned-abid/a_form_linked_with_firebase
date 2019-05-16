@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADA Student feedback</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1 style="margin-left:10%; color:#91E980;">ADA Students feedback</h1>
+    <div id="carre" style="box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);">
+    	<div class="square info">
+    		<img src="res/wny.jpg" alt="we need you!">
+    		<div style="margin-left:5%;margin-bottom: 5%;">
+    		<p><p style="font-weight: bold;color: #0D7D11;">To give us feedback, because this course is made for you! Because it's all about you!</p>
+    		<p style="color: #0D7D11">Fill this form if you:</p><br>
+
+<p style="color: #0D7D11">- Find an error in the content or in the quizzes</p>
+<p style="color: #0D7D11">- Have a feedback about instructors or the experience</p>
+<p style="color: #0D7D11">- Have a suggestion on how to make the course better</p></p></div>
+    	</div>
+    	<div class="square form">
+            <div class="alert" id="alert">Your message has been sent</div>
+    		<form id="contactForm">
+    			<h3 style="margin:5%; width: 90%; color: #0D7D11">Email Us</h3>
+    			<div style="width: 90%;margin:5%;">
+    				<label for="name" style="color: #0D7D11">Name</label><br>
+    				<input type="name"  id="name" name="name" style="height: 30px; width: 40%;" required>
+    			    <label for="track" style="color: #0D7D11">Track</label>
+    			    <select type="track" id="track" name="track">
+    			    	<option>AI</option>
+    			    	<option>WEB</option>
+    			    	<option>GAME</option>
+    			    </select>
+    			</div>
+    			<div style="width: 90%; margin: 5%">
+    			<label style="color: #0D7D11" for="slide">Slide name (or object)</label><br>
+    			<input type="slide" name="slide" id="slide" style="height:30px;width:40%;">
+    			</div>
+    			<br>
+    			<div style="width: 90%; margin: 5%;">
+    			<label style="color: #0D7D11" for="message">Message</label><br>
+    			<input type="message" name="message" id="message" style="height:70px;width: 90%;">
+    			</div>
+    			<br>
+    			<button type="submit" style="width: 95%; height: 40px; background-color:lightgreen; border-style: none;margin:2.5%">SUBMIT</button>
+    		</form>
+    	</div>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
